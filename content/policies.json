@@ -1,0 +1,20 @@
+{
+  "policies": [
+    {
+      "title": "Booking & deposits",
+      "description": "Pending owner approval. Add the booking process, any required deposit, and payment methods here. No deposits are collected through this demo."
+    },
+    {
+      "title": "Cancellations & rescheduling",
+      "description": "Pending owner approval. Add the cancellation notice period, rescheduling process, and any applicable fees."
+    },
+    {
+      "title": "Late arrivals & no-shows",
+      "description": "Pending owner approval. Add the grace period, how lateness affects service time, and the no-show policy."
+    },
+    {
+      "title": "Preparing for your appointment",
+      "description": "Pending owner approval. Add service-specific preparation, suitability guidance, and how to contact the studio with questions."
+    }
+  ]
+}

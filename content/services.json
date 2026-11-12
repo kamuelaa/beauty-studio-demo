@@ -1,0 +1,49 @@
+{
+  "services": [
+    {
+      "title": "Signature facial",
+      "category": "Skin",
+      "tag": "Sample service",
+      "description": "Sample service: a personalized skin-care experience. Treatment details and duration to be confirmed.",
+      "price": "Price to be confirmed",
+      "image": "",
+      "imageUrl": ""
+    },
+    {
+      "title": "Restorative facial",
+      "category": "Skin",
+      "tag": "Sample service",
+      "description": "Sample service: a moment to unwind with a skin-focused ritual. Final treatment menu to be provided.",
+      "price": "Price to be confirmed",
+      "image": "",
+      "imageUrl": ""
+    },
+    {
+      "title": "Lash styling",
+      "category": "Lashes & brows",
+      "tag": "Sample service",
+      "description": "Sample service: lash styling tailored to your preferences. Available techniques to be confirmed.",
+      "price": "Price to be confirmed",
+      "image": "",
+      "imageUrl": ""
+    },
+    {
+      "title": "Brow shaping",
+      "category": "Lashes & brows",
+      "tag": "Sample service",
+      "description": "Sample service: thoughtful shaping and finishing. Final service details to be confirmed.",
+      "price": "Price to be confirmed",
+      "image": "",
+      "imageUrl": ""
+    },
+    {
+      "title": "Soft glam",
+      "category": "Makeup",
+      "tag": "Sample service",
+      "description": "Sample service: a considered makeup look for your occasion. Products, timing, and availability to be confirmed.",
+      "price": "Price to be confirmed",
+      "image": "",
+      "imageUrl": ""
+    }
+  ]
+}

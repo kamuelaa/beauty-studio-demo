@@ -1,0 +1,188 @@
+media:
+  input: images
+  output: /images
+content:
+- name: homepage
+  label: Homepage
+  type: file
+  path: content/homepage.json
+  format: json
+  operations:
+    delete: false
+  fields:
+  - name: headline
+    label: Main Headline
+    type: string
+  - name: description
+    label: Description
+    type: text
+  - name: metaDescription
+    label: Search description
+    type: text
+- name: services
+  label: Services
+  type: file
+  path: content/services.json
+  format: json
+  operations:
+    delete: false
+  fields:
+  - name: services
+    label: Service List
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Service Name
+      type: string
+    - name: category
+      label: Category
+      type: string
+    - name: tag
+      label: Short Tagline
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: price
+      label: Price
+      type: string
+    - name: image
+      label: Uploaded Service Photo
+      type: image
+    - name: imageUrl
+      label: Existing Photo URL (optional)
+      type: string
+- name: gallery
+  label: Photo Gallery
+  type: file
+  path: content/gallery.json
+  format: json
+  operations:
+    delete: false
+  fields:
+  - name: photos
+    label: Gallery Photos
+    type: object
+    list: true
+    fields:
+    - name: image
+      label: Uploaded Photo
+      type: image
+    - name: imageUrl
+      label: Existing Photo URL (optional)
+      type: string
+    - name: alt
+      label: Photo Description
+      type: string
+    - name: wide
+      label: Wide Layout
+      type: boolean
+    - name: caption
+      label: Caption
+      type: string
+- name: business
+  label: Business and Contact
+  type: file
+  path: content/business.json
+  format: json
+  fields:
+  - name: businessName
+    label: Business name
+    type: string
+  - name: email
+    label: Email
+    type: string
+  - name: phone
+    label: Phone
+    type: string
+  - name: location
+    label: Location
+    type: string
+  - name: hours
+    label: Hours
+    type: string
+  - name: socials
+    label: Social profiles
+    type: object
+    list: true
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: url
+      label: Url
+      type: string
+- name: about
+  label: About & Mission
+  type: file
+  path: content/about.json
+  format: json
+  fields:
+  - name: title
+    label: Title
+    type: string
+  - name: story
+    label: Story
+    type: text
+  - name: mission
+    label: Mission
+    type: text
+  - name: image
+    label: Owner photo
+    type: image
+  - name: imageAlt
+    label: Photo description
+    type: string
+- name: booking
+  label: Setmore Booking
+  type: file
+  path: content/booking.json
+  format: json
+  fields:
+  - name: url
+    label: Setmore booking URL
+    type: string
+  - name: approved
+    label: Owner approved live bookings
+    type: boolean
+  - name: embedCode
+    label: Optional Setmore iframe embed code
+    type: text
+- name: reviews
+  label: Approved Reviews
+  type: file
+  path: content/reviews.json
+  format: json
+  fields:
+  - name: reviews
+    label: Reviews
+    type: object
+    list: true
+    fields:
+    - name: quote
+      label: Quote
+      type: text
+    - name: name
+      label: Name
+      type: string
+    - name: approved
+      label: Genuine review approved for publication
+      type: boolean
+- name: policies
+  label: Booking Policies
+  type: file
+  path: content/policies.json
+  format: json
+  fields:
+  - name: policies
+    label: Policies
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
